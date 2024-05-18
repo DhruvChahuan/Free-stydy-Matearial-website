@@ -1,0 +1,228 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgba(255, 255, 255, 0.116);
+}
+.navbar{
+    background-color: black;
+    color: white;
+    height: 70px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+.logo{
+    background-color: white;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    background-image: url("logo.png");
+    background-size: cover;
+    margin-left: 20px;
+}
+.navlist{
+    display: flex;
+    margin-left: 300px;
+    list-style-type: none;
+    gap: 30px;
+}
+.navlist li a{
+    color: white;
+    padding: 10px;
+}
+.navlist li a:hover{
+    color: black;
+    background-color: white;
+}
+
+.heading{
+    font-size: 30px;
+    position: absolute;
+    top: 130px;
+    left: 120px;
+}
+
+/* cards-1 */
+.cards1{
+    position: absolute;
+    top: 170px;
+    left: 100px;
+    display: flex;
+}
+.card1{
+    height: 300px;
+    width: 200px;
+    background-color: rgba(255, 255, 255, 0.014);
+}
+.card1img{
+    height: 170px;
+    width: 170px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 10px;
+    background-image: url("htmllg.png");
+    background-size: cover;
+}
+.card1name{
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+}
+.card1btn{
+    color: white;
+    background-color: dimgray;
+    border: none;
+    padding: 7px;
+    margin: 15px 45px;
+}
+.card1btn:hover{
+    border: 1px solid black;
+}
+
+/* cards-2 */
+.cards2{
+    position: absolute;
+    top: 460px;
+    left: 100px;
+    display: flex;
+}
+
+/* cards-3 */
+.cards3{
+    position: absolute;
+    top: 750px;
+    left: 100px;
+    display: flex;
+}
+
+/* Cards Images */
+.card1img2{
+    height: 170px;
+    width: 170px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 10px;
+    background-image: url("csslg.png");
+    background-size: cover;
+}
+.card1img3{
+    height: 170px;
+    width: 170px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 10px;
+    background-image: url("jslg.png");
+    background-size: cover;
+}
+.card1img4{
+    height: 170px;
+    width: 170px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 10px;
+    background-image: url("mongodblg.png");
+    background-size: cover;
+}
+.card1img5{
+    height: 170px;
+    width: 170px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 10px;
+    background-image: url("sqllg.png");
+    background-size: cover;
+}
+.card1img6{
+    height: 170px;
+    width: 170px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 10px;
+    background-image: url("clg.png");
+    background-size: cover;
+}
+.card1img7{
+    height: 170px;
+    width: 170px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 10px;
+    background-image: url("chaselg.png.png");
+    background-size: cover;
+}
+.card1img8{
+    height: 170px;
+    width: 170px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 10px;
+    background-image: url("javalg.png");
+    background-size: cover;
+}
+.card1img9{
+    height: 170px;
+    width: 170px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 10px;
+    background-image: url("pylg.png");
+    background-size: cover;
+}
+.card1img10{
+    height: 170px;
+    width: 170px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 10px;
+    background-image: url("phplg.png");
+    background-size: cover;
+}
+.card1img11{
+    height: 170px;
+    width: 170px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 10px;
+    background-image: url("nodejslg.png");
+    background-size: cover;
+}
+.card1img12{
+    height: 170px;
+    width: 170px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 10px;
+    background-image: url("c++lg.png");
+    background-size: cover;
+}
+
+/* Footer */
+.footer{
+    background-color: black;
+    color: white;
+    height: 300px;
+    width: 100%;
+    margin-top: 930px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.icons{
+    font-size: 25px;
+    gap: 50px;
+}

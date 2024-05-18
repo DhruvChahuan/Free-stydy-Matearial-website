@@ -1,0 +1,192 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgba(255, 255, 255, 0.116);
+}
+.navbar{
+    background-color: black;
+    color: white;
+    height: 70px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+.logo{
+    background-color: white;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    background-image: url("logo.png");
+    background-size: cover;
+    margin-left: 20px;
+}
+.navlist{
+    display: flex;
+    margin-left: 300px;
+    list-style-type: none;
+    gap: 30px;
+}
+.navlist li a{
+    color: white;
+    padding: 10px;
+}
+.navlist li a:hover{
+    color: black;
+    background-color: white;
+}
+.videoiteams{
+    height: 330px;
+    width: 500px;
+    margin: 40px 50px;  
+    background-color: rgba(255, 255, 255, 0.041);
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    column-gap: 5px;
+}
+.videoiteams:hover{
+    background-color: yellow;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+.heading{
+    position: absolute;
+    top: 110px;
+    left: 70px;
+    font-size: 30px;
+}
+.vidimg{
+    height: 250px;
+    width: 470px;
+    background-image: url("c.jpg");
+    background-size: cover;
+    object-fit: contain;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.vidimg2{
+    height: 250px;
+    width: 470px;
+    background-image: url("cpp.jpg");
+    background-size: cover;
+    object-fit: contain;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.vidimg3{
+    height: 250px;
+    width: 470px;
+    background-image: url("python.jpg");
+    background-size: cover;
+    object-fit: contain;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.vidimg4{
+    height: 250px;
+    width: 470px;
+    background-image: url("java.jpg");
+    background-size: cover;
+    object-fit: contain;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.vidimg5{
+    height: 250px;
+    width: 470px;
+    background-image: url("html.jpg");
+    background-size: cover;
+    object-fit: contain;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.vidimg6{
+    height: 250px;
+    width: 470px;
+    background-image: url("css.jpg");
+    background-size: cover;
+    object-fit: contain;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.vidimg7{
+    height: 250px;
+    width: 470px;
+    background-image: url("javascript.jpg");
+    background-size: cover;
+    object-fit: contain;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.btnclick{
+    font-size: 20px;
+    padding: 5px;
+    color: white;
+    background-color: black;
+    margin: 15px;
+}
+.btnclick2{
+    font-size: 20px;
+    padding: 5px;
+    color: white;
+    background-color: black;
+}
+.btnclick:hover{
+    background-color: blueviolet;
+    border: none;
+}
+.btnclick2:hover{
+    background-color: blueviolet;
+    border: none;   
+}
+.firstrow{
+    width: 1000px;
+    display: flex;
+}
+.secondrow{
+    display: flex;
+    position: absolute;
+    top: 450px;
+}
+.thirdrow{
+    margin-top: 310px;
+    display: flex;
+}
+.heading2{
+    font-size: 30px;
+    position: absolute;
+    top: 830px;
+    left: 70px;
+}
+.forthrow{
+    display: flex;
+    position: absolute;
+    top: 1170px;
+}
+
+/* Footer */
+.footer{
+    background-color: black;
+    color: white;
+    height: 300px;
+    width: 100%;
+    margin-top: 350px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.icons{
+    font-size: 25px;
+    gap: 50px;
+}

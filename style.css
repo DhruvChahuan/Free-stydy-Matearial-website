@@ -1,0 +1,153 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+.bg{
+    height: 100vh;
+    background-image: url("mountain.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    object-fit: cover;
+    /* opacity: 0.9; */
+}
+.logo{
+    height: 100px;
+    width: 100px;
+    position: absolute;
+    top: 30px;
+    left: 50px;
+    border-radius: 50%;
+    background-image: url("logo.png");    
+    background-size: cover;
+}
+.navlist{
+    display: flex;
+    position: absolute;
+    top: 40px;
+    left: 450px;
+    gap: 30px;
+}
+.navlist li{
+    list-style-type: none;
+}
+.navlist li a{
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 10px;
+}
+.navlist li a:hover{
+    color: black;
+    background-color: white;
+}
+.maintext{
+    position: absolute;
+    top: 250px;
+    left: 500px;
+}
+.text{
+    font-size: 50px;
+    color: white;
+    font-weight: 50px;
+}
+.lists li{
+    list-style-type: none;
+    color: white;
+    border: 2px solid white;
+    padding: 5px;
+}
+.lists li:hover{
+    color: black;
+    background-color: white;
+}
+.lists{
+    display: flex;
+    gap: 30px;
+    font-size: 17px;
+} 
+.btns{
+    position: absolute;
+    top: 20px;
+    right: 30px;
+    display: flex;
+    gap: 20px;
+}
+.btns li{
+    list-style-type: none;
+    border: 2px solid white;
+    padding: 5px;
+    color: white;
+}
+.btns li:hover{
+    color: black;
+    background-color: white;
+}
+
+.hide{
+    display: none;
+}
+
+/* signup page */
+.signuppage{
+    position: absolute;
+    top: 200px;
+    left: 580px;
+    border: 2px solid white;
+    padding: 20px;
+    border-radius: 20px;
+}
+.collection{
+    column-gap: 20px;
+}
+.su{
+    color: white;
+}
+#email{
+    font-size: 15px;
+}
+#password{
+    font-size: 15px;
+}
+.btnsignup{
+    font-size: 15px;
+    width: 195px;
+    padding: 1px;
+    color: white;
+    background-color: black;
+}
+.btnsignup:hover{
+    border: 1px solid white;
+}
+
+/* Login page */
+.loginpage{
+    position: absolute;
+    top: 200px;
+    left: 580px;
+    border: 2px solid white;
+    padding: 20px;
+    border-radius: 20px;
+}
+.collectionlogin{
+    column-gap: 20px;
+}
+.li{
+    color: white;
+}
+#emailli{
+    font-size: 15px;
+}
+#passwordli{
+    font-size: 15px;
+}
+.btnlogin{
+    font-size: 15px;
+    width: 195px;
+    padding: 1px;
+    color: white;
+    background-color: black;
+}
+.btnlogin:hover{
+    border: 1px solid white;
+}
